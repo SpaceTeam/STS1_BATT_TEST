@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "170875fa-aaf2-4d95-8ffc-81831e498b51")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "SOURCE"
+		(shape input)
+		(at 64.77 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60ae28e6-ddd7-4ba2-a941-9c748a7abd38")
+	)
+	(hierarchical_label "DRAIN"
+		(shape input)
+		(at 64.77 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b055727a-5528-4c30-afe9-26fea11a8e4b")
+	)
+	(hierarchical_label "GATE"
+		(shape input)
+		(at 31.75 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f368eb2d-dc14-4008-9f1f-eae787ae9761")
+	)
+)

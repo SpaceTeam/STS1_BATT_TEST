@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f3697b04-f8ab-4a60-9ac1-345ebe29a59f")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "TEMP_IN"
+		(shape input)
+		(at 22.86 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b4b516eb-249a-490b-9933-ef2f72f705fa")
+	)
+	(hierarchical_label "VDD"
+		(shape input)
+		(at 22.86 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c81c7e80-39a9-41d4-a822-9fa112bac053")
+	)
+	(hierarchical_label "TEMP_OUT"
+		(shape output)
+		(at 52.07 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff646791-7776-4da6-bc65-b544ad10403e")
+	)
+)
