@@ -1312,6 +1312,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cfaba5-348b-4534-b74f-34d1d99b08f7")
+	)
+	(wire
+		(pts
 			(xy 237.49 83.82) (xy 242.57 83.82)
 		)
 		(stroke
@@ -1459,6 +1469,16 @@
 			(type default)
 		)
 		(uuid "8cf2ee52-045c-46c9-8bb6-3306ef4515a6")
+	)
+	(wire
+		(pts
+			(xy 151.13 143.51) (xy 154.94 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c0d625-5d03-4ad4-8351-ec673b62b2e8")
 	)
 	(wire
 		(pts
@@ -2619,6 +2639,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c12be075-673d-49d8-9801-3671a0422ae6")
+		(property "Reference" "#PWR08"
+			(at 161.29 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fb989b1-df5a-4ff9-a3d7-09fc3669f6c6")
+		)
+		(instances
+			(project "STS1_BATT_TEST"
+				(path "/3a2a22aa-6e8a-41f2-9388-8b5b5cbcd4ba"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d96afb55-2ae6-4908-97d8-e7ccfb2e7e17")
+		(property "Reference" "#PWR07"
+			(at 161.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f722ba0-99ef-45d5-83d7-b0400ad63fc0")
+		)
+		(instances
+			(project "STS1_BATT_TEST"
+				(path "/3a2a22aa-6e8a-41f2-9388-8b5b5cbcd4ba"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 246.38 33.02 0)
 		(unit 1)
@@ -3030,6 +3184,16 @@
 			)
 			(uuid "1f656197-3b9d-48d1-bec1-085a774e0544")
 		)
+		(pin "GND" input
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3f8ea65b-7520-4d3d-be81-b7765fef6ea3")
+		)
 		(instances
 			(project "STS1_BATT_TEST"
 				(path "/3a2a22aa-6e8a-41f2-9388-8b5b5cbcd4ba"
@@ -3213,6 +3377,16 @@
 				(justify right)
 			)
 			(uuid "669a611e-46a2-4b2b-9e60-44ea5897da01")
+		)
+		(pin "GND" input
+			(at 151.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd48cb3d-249e-4223-84d4-8eee6dabafb9")
 		)
 		(instances
 			(project "STS1_BATT_TEST"

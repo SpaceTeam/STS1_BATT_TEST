@@ -29,6 +29,18 @@
 		)
 		(uuid "c81c7e80-39a9-41d4-a822-9fa112bac053")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 52.07 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d762a424-a988-4846-b68c-e133df7c43cb")
+	)
 	(hierarchical_label "TEMP_OUT"
 		(shape output)
 		(at 52.07 20.32 0)

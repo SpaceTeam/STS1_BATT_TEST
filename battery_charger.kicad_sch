@@ -5,6 +5,18 @@
 	(uuid "86e2b57e-df36-46e8-88b1-1da65eea176b")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 49.53 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d1832e4-85e7-4b37-b685-1d402651ed73")
+	)
 	(hierarchical_label "VDD"
 		(shape input)
 		(at 22.86 25.4 180)
