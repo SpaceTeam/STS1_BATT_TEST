@@ -5,9 +5,20 @@
 	(uuid "86e2b57e-df36-46e8-88b1-1da65eea176b")
 	(paper "A4")
 	(lib_symbols)
+	(text "Choose a battery charger here. The charger should be enable via the \nENABLE signal. It shall be dormant, if the ENABLE signal is low. \nThere are two options here. \n1.) (simple) Just place a pin strip here. The battery charger will then\nbe connected via jumper vias to this pin strip \n2.) (complex) Choose a battery charger IC and place it here."
+		(exclude_from_sim no)
+		(at 24.892 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65394eeb-e094-4669-872e-55ea37b69ab8")
+	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 49.53 40.64 0)
+		(at 49.53 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -40,5 +51,17 @@
 			(justify left)
 		)
 		(uuid "a473c65c-5f68-4d1f-8ab8-daa86fff7526")
+	)
+	(hierarchical_label "ENABLE"
+		(shape input)
+		(at 22.86 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbf0d491-e520-4e0a-b10d-1b7c41662285")
 	)
 )

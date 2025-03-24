@@ -5,6 +5,17 @@
 	(uuid "ecfaec7f-28ae-42e6-9c98-70cb7156410e")
 	(paper "A4")
 	(lib_symbols)
+	(text "Choose a suitable shunt resistor here.\nNote that the load MOSFET's resistance is ~5 mOhm. \nDepending on the shunts resistance, it will be subjected to\nmore or less power dissipation. It will have to withstand this \npower dissipation. It may even need an extra heat sink. It's totally\nfine if you choose a through hole component here."
+		(exclude_from_sim no)
+		(at 17.78 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "334d1e5a-1098-4ec7-9b33-96a82c2383f8")
+	)
 	(hierarchical_label "LOW"
 		(shape input)
 		(at 29.21 43.18 180)

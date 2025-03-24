@@ -5,6 +5,16 @@
 	(uuid "170875fa-aaf2-4d95-8ffc-81831e498b51")
 	(paper "A4")
 	(lib_symbols)
+	(text "Choose a MOSFET that enables or disables the charging \nof the battery. You most likely want to choose a PFET here.\nI probably won't need cooling, as the charging currents won't\nexceed 2A by much."
+		(exclude_from_sim no)
+		(at 69.342 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5609047a-67d7-4206-9285-29f6147f95ba")
+	)
 	(hierarchical_label "SOURCE"
 		(shape input)
 		(at 64.77 27.94 0)

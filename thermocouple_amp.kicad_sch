@@ -5,6 +5,16 @@
 	(uuid "f3697b04-f8ab-4a60-9ac1-345ebe29a59f")
 	(paper "A4")
 	(lib_symbols)
+	(text "Choose a suitable amplifier for the thermocouple here. \nYou got 5V supply voltage (VDD) from the Labjack here\nthat can be used to power the amplifier."
+		(exclude_from_sim no)
+		(at 45.72 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e495fa40-f292-4d52-9657-af3ff7900706")
+	)
 	(hierarchical_label "TEMP_IN"
 		(shape input)
 		(at 22.86 33.02 180)

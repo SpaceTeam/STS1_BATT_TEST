@@ -598,7 +598,7 @@
     ],
     [
       "d1647cf3-2c7f-4bb4-a193-2f331a3c09e1",
-      "TODO: Load Mosfet with cooling"
+      "Load Mosfet with cooling"
     ],
     [
       "4673d1f2-6479-4c8b-9dfb-97b8904d64c1",
@@ -611,10 +611,6 @@
     [
       "9fa6247b-6e27-4d5a-8254-615ea9439f37",
       "TODO: Battery Charger"
-    ],
-    [
-      "93c6680a-9faa-49ef-9b37-d88a68528a0e",
-      "TODO: Charge Control Mosfet"
     ]
   ],
   "text_variables": {}

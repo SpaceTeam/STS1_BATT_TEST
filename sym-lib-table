@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STS_Transistor_FET")(type "KiCad")(uri "${KIPRJMOD}/lib/STS1_PCB_LIBRARIES/symbol/STS_Transistor_FET.kicad_sym")(options "")(descr ""))
+  (lib (name "STS_Other")(type "KiCad")(uri "${KIPRJMOD}/lib/STS1_PCB_LIBRARIES/symbol/STS_Other.kicad_sym")(options "")(descr ""))
+)
